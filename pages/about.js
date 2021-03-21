@@ -8,7 +8,7 @@ export default function About() {
         <meta name="keywords" content="Next, React, Web Development" />
       </Head>
       <div>
-        <h1>Welcome to Next</h1>
+        <h1>About</h1>
       </div>
     </>
   )
