@@ -2,6 +2,7 @@
 import headerStyles from '../styles/Header.module.css'
 
 const Header = () => {
+  const x = 2
   return (
     <div>
       <h1 className='title'>
@@ -9,10 +10,10 @@ const Header = () => {
       </h1>
       <style jsx>
         {`
-        .title {
-          color: red;
-        }
-      `}
+          .title {
+            color: ${x > 3 ? 'red' : 'blue'};
+          }
+        `}
       </style>
     </div>
   )
