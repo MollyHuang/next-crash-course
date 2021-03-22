@@ -1,15 +1,12 @@
 import { server } from '../config'
-import Head from 'next/head'
 import ArticleList from '../components/ArticleList'
+import Meta from '../components/Meta';
 
 export default function Home({ articles }) {
   // console.log('articles = ', articles)
   return (
     <>
-      <Head>
-        <title>Next Crash - Home</title>
-        <meta name="keywords" content="Next, React, Web Development" />
-      </Head>
+      <Meta />
       <ArticleList articles={articles} />
     </>
   )
